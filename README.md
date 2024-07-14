@@ -1,5 +1,5 @@
 使用ESP32S3 接入MiniMax文本语音大模型对话\
-源代码参考B站大佬2345vor的教程https://blog.csdn.net/vor234/article/details/138620142， 感谢！\
+源代码参考B站大佬2345vor的教程https://blog.csdn.net/vor234/article/details/138620142  感谢！\
 在原有功能基础上加入了\
 1：smartconfig一键配网功能，能记录上次配网信息，断电能够实现重连。\
 2：加了TFT屏幕显示文本（st7789v2 240x320 spi）显示还不完美，需要调试。\
@@ -17,4 +17,4 @@ TFT屏：st7789v2 240x320 请参考\lib\TFT_eSPI\User_Setup.h\
 #define TFT_CS   10  \
 #define TFT_DC    9  \
 #define TFT_RST   8 \
-#define TFT_MISO 13 \
+#define TFT_MISO 13 
