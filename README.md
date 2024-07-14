@@ -4,7 +4,7 @@
 1：smartconfig一键配网功能，能记录上次配网信息，断电能够实现重连。\
 2：加了TFT屏幕显示文本（st7789v2 240x320 spi）显示还不完美，需要调试。\
 3：由原本的2秒提问录音改成了5秒。\
-%代码中APIKEY的部分经过处理请勿照搬，请自己申请后替换。%\
+%esp32-s3-devkitc-1-n16r8v.json请移至C:\Users\**\.platformio\platforms\espressif32\boards\文件下，代码中APIKEY的部分经过处理请勿照搬，请自己申请后替换。%\
 硬件部分：（根据需要自己更换接线）\
 主控esp32-s3-devkitc-1 n16r8 上传时不要选择USB口，选择UART口。\
 按键： GPIO7\
