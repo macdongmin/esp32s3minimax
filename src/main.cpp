@@ -13,14 +13,6 @@
 #include <U8g2_for_TFT_eSPI.h>
 #include <Preferences.h>
 #include <esp_wifi.h>
-#define BLACK 0x0000
-#define BLUE 0x001F
-#define RED 0xF800
-#define GREEN 0x07E0
-#define CYAN 0x07FF
-#define MAGENTA 0xF81F
-#define YELLOW 0xFFE0
-#define WHITE 0xFFFF
 TFT_eSPI tft = TFT_eSPI();  
 U8g2_for_TFT_eSPI u8g2;
 // #按键和max9814麦克风
@@ -68,7 +60,7 @@ void displayText(const String &text) {
   //tft.setTextDatum(MC_DATUM);  // Middle center datum for text positioning
   // 设置字体、前景色、模式和方向
   u8g2.setFont(u8g2_font_wqy12_t_gb2312);  // Ensure the correct font is set
-  u8g2.setForegroundColor(WHITE);          //字色
+  u8g2.setForegroundColor(TFT_WHITE);          //字色
                                           // u8g2.setBackgroundColor(BLACK);//字背景色
   u8g2.setFontMode(1);                     //透明
   u8g2.setFontDirection(0);                //字方向
