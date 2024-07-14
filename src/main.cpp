@@ -1,5 +1,6 @@
 //代码大部分参考B站大佬2345vor的博客https://blog.csdn.net/vor234/article/details/138620142，感谢！
 //基于他的功能上添加了1，Smartconfig智能配网.2，ST7789V2屏幕显示文本内容.3,由原本2秒改成了5秒录音。
+//关键APIKEY等信息已经经过处理，请自己申请后更改为自己的
 #include <Arduino.h>
 #include "base64.h"
 #include "WiFi.h"
